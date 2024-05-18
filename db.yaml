@@ -1,5 +1,6 @@
 - name: Configure DB Server
   hosts: db
+  become: yes
   vars:
     login_host: db.daws9.online
   tasks:
