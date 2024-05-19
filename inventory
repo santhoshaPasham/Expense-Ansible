@@ -1,2 +1,8 @@
 [db]
 db.daws9.online
+
+[backend]
+backend.daws9.online
+
+[frontend]
+54.158.1.108
