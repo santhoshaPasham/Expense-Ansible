@@ -14,4 +14,11 @@
   - name: create expense user 
     ansible.builtin.user: 
       name: expense
+
+  - name: cretae app directory 
+    ansible.builtin.file: 
+      path: /app
+      state: directory 
+
+  
   
